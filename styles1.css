@@ -1,0 +1,167 @@
+h1 {
+    color: black; 
+    font-size: xx-large;
+  }
+
+h2{
+  color: black;
+  font-style: unset;
+  font-style: italic;
+  font-size: medium; 
+ 
+}
+
+h3{
+  color:white;
+}
+
+.h5{
+  font-size: 2em;
+  color:#483C32;
+}
+
+.mission{
+  padding-left:5px;
+  margin-left: 5px;
+  color:white;
+}
+  
+  a {
+    color: black;
+  }
+  
+  small{
+    font-size:xx-small
+  }
+
+
+ 
+
+  .divider {
+    padding: 5px;
+    background-color: black;
+
+  }
+
+  .boxRow{
+    
+    display: grid;
+    padding: 10px; 
+    width: 100%;
+    height:435px;
+    background-color: #98AFC7  ;  
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(9,1fr);
+  }
+
+    .Layout1a
+    {
+      background: rgb(135, 82, 82);
+      grid-column: 1 / 7;
+      grid-row: 1 / 10;
+      text-align: center;
+      font-size: large;
+      width: 100%;
+      margin-top: 0px;
+      padding-top:0px;
+      font-size: 200%;
+      border:grey;
+      border-style: solid;
+      border-width: 10px;
+    }
+
+    .Layout1b
+    {
+      grid-column: 7 / 10;
+      grid-row: 1 / 10;
+      padding: 50px; 
+      margin-left: 0px;
+      margin-top:0px;
+      padding-top:40px;
+    }
+  
+.popUp
+  {
+    background: black;
+    width:800px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;   
+  }
+
+  .video{
+    margin-left: 5px;  
+    align-content: middle;
+   
+  }
+  
+  .academic
+  {
+    display: grid;
+    width:1500px;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-left: 0px;
+  
+    padding-bottom: 10px;
+
+    
+  }
+      .degree_pending{
+        border-style: dotted;
+        border-color:rgb(135, 82, 82);
+        padding:10px;
+      }
+      .degree_achieved{
+        border-style: solid;
+        border-color: black;
+        padding:10px;
+      }
+
+  .titles{
+    display: grid;
+    width:1500px;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 0px;
+  
+  }
+  
+
+  .contact { 
+    border-left: 300px solid rgb(135, 82, 82);
+    border-right: 300px solid rgb(135, 82, 82);
+    background-color: darkgrey;
+    margin-left: 0px;
+    padding-left: 0px;    
+    text-align: center;
+  
+} 
+
+.interests{
+  font-family: cursive;
+}
+.footer {
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: black;
+  color: #ffffff;
+}
+
+
+
+  
+  /*
+  div:nth-of-type(odd){
+    background:burlywood;
+  }
+  */
+
+  /* .active {
+    border-left: 5px solid #01e4ff;
+  } */
+ 
+  
